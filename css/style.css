@@ -3,6 +3,21 @@ body {
   background-color: #f5f7fa;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 .main-container {
   display: flex;
   flex-direction: row-reverse;
@@ -23,13 +38,17 @@ body {
   font-size: 22px;
   line-height: 27px;
   color: #000;
-  margin: 0 0 10px 0;
+  margin: 0 0 5px 0;
+}
+
+.main-content-list{
+  list-style: none;
 }
 
 /* About me section */
 
 .about-me-section {
-  margin: 0 0 40px 0;
+  margin: 0 0 20px 0;
 }
 
 .about-me-profession {
@@ -38,7 +57,7 @@ body {
   font-size: 14px;
   font-weight: 700;
   color: #000;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 
 .about-me-name {
@@ -47,7 +66,7 @@ body {
   font-size: 45px;
   line-height: 55px;
   color: #022b08;
-  margin: 0 0 25px 0;
+  margin: 0 0 15px 0;
 }
 
 .about-me-discription {
@@ -62,16 +81,21 @@ body {
 /* My prohect section */
 
 .my-project-section {
-  margin: 0 0 50px 0;
+  margin: 0 0 25px 0;
 }
 
 .my-project-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 0 0 0 17px;
 }
 
 .my-project-item {
+  width: 300px;
   color: #000;
   font-weight: 700;
+  margin-bottom: 7px;
 }
 
 .my-project-text {
@@ -126,7 +150,7 @@ body {
 /* My work experience company */
 
 .my-work-experience-section {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
 }
 
 .my-work-experience-company {
@@ -216,6 +240,7 @@ body {
 }
 .contacts-section,
 .tech-skills-section {
+  list-style: none;
   margin: 50px 0 0 40px;
 }
 .soft-skills-section {
@@ -273,6 +298,3 @@ body {
   color: #fff;
 }
 
-.soft-skills-paragraf:not(:last-child) {
-  margin-bottom: 20px;
-}
