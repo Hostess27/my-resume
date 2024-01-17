@@ -2,6 +2,18 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.skiptranslate {
+  display: none;
+  height: 0;
+}
+.language__img {
+  cursor: pointer;
+}
+
+.language {
+  padding-bottom: 50px;
+}
+
 ul {
   padding: 0;
   margin: 0;
@@ -277,7 +289,24 @@ p {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  text-decoration: none;
 }
+
+.contacts-section-link:hover,
+.contacts-section-link:focus {
+  color: #fb6d3a;
+}
+
+.my-project-link:hover,
+.my-project-link:focus {
+  color: #000;
+}
+
+.my-project-git:hover,
+.my-project-git:focus {
+  color: aqua;
+}
+
 /* Tech & Soft skills section*/
 .tech-skills-list,
 .soft-skills-list,
